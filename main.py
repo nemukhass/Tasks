@@ -52,12 +52,17 @@
 # print("peremenniye v pitone i ispolzuyutsa chtobi xranit danniye kajdaya "
 #       "peremena immet svoy tip ispolzovaniy naprimer ", a,b
 #       )
-def proverka():
-    a = (int(input("введите 1 число")))
-    b = (int(input("введите 2 число")))
-    for i in range(a,b):
-        if i %2 == 0:
-            print(f'четное {i}')
-        elif i %2 == 1:
-            print(f'нечетное {i}')
-proverka()
+# def proverka():
+#     a = (int(input("введите 1 число")))
+#     b = (int(input("введите 2 число")))
+#     for i in range(a,b):
+#         if i %2 == 0:
+#             print(f'четное {i}')
+#         elif i %2 == 1:
+#             print(f'нечетное {i}')
+# proverka()
+print("Циклы — базовый инструмент программирования на Python. "
+      "С их помощью разработчики могут быстро выполнять повторяющиеся действия,"
+      " автоматизируя процесс. В каждом цикле есть условие и блок кода, которые выполняются,"
+      " пока условие истинно. С помощью циклов for можно итерировать"
+      " коллекции данных, выполняя преобразования.")
