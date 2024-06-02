@@ -46,4 +46,9 @@
 #     print(a*b)
 # if c == "/":
 #     print(a/b)
-print("Hello World!")
+# print("Hello World!")
+a = 5
+b = 10
+print("peremenniye v pitone i ispolzuyutsa chtobi xranit danniye kajdaya "
+      "peremena immet svoy tip ispolzovaniy naprimer ", a,b
+      )
