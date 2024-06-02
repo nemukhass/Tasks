@@ -25,7 +25,13 @@
 # b = float(input("vvedite 2 chislo"))
 # c = input("vvedite 3 chislo")
 # print(a,b,c)
-a = int(input("vvedite 1 chislo"))
-b = int(input("vvedite 2 chislo"))
-c = int(input("vvedite 3 chislo"))
-print(a+b+c)
+# a = int(input("vvedite 1 chislo"))
+# b = int(input("vvedite 2 chislo"))
+# c = int(input("vvedite 3 chislo"))
+# print(a+b+c)
+a = int(input("zaregayte parol"))
+b = int(input("povtorite parol"))
+if a == b:
+    print("Пароль принят")
+else:
+    print("Пароль не принят")
