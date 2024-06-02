@@ -47,8 +47,17 @@
 # if c == "/":
 #     print(a/b)
 # print("Hello World!")
-a = 5
-b = 10
-print("peremenniye v pitone i ispolzuyutsa chtobi xranit danniye kajdaya "
-      "peremena immet svoy tip ispolzovaniy naprimer ", a,b
-      )
+# a = 5
+# b = 10
+# print("peremenniye v pitone i ispolzuyutsa chtobi xranit danniye kajdaya "
+#       "peremena immet svoy tip ispolzovaniy naprimer ", a,b
+#       )
+def proverka():
+    a = (int(input("введите 1 число")))
+    b = (int(input("введите 2 число")))
+    for i in range(a,b):
+        if i %2 == 0:
+            print(f'четное {i}')
+        elif i %2 == 1:
+            print(f'нечетное {i}')
+proverka()
