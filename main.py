@@ -7,7 +7,11 @@
 # b = ("67")
 # frozenset(b)
 # print(a[2])
-a = (input("vvedite 4 znacnoe chislo"))
-b = list(a)
-for i in b:
-    print(i)
+# a = (input("vvedite 4 znacnoe chislo"))
+# b = list(a)
+# for i in b:
+#     print(i)
+a = input("vawe imya")
+b = input("vawa familiya")
+c = input("skolko vam let")
+print(a,b,c)
